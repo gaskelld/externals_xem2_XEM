@@ -1,0 +1,5 @@
+# ignore patterns
+
+*~
+# Objects and executable
+*.out

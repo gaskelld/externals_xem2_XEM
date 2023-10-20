@@ -1,0 +1,9 @@
+# ignore patterns
+
+*~
+# Objects and executable
+*.o
+*.d
+externals_all
+a.out
+

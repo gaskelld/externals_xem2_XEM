@@ -87,16 +87,16 @@ CCCC      CALL READIN(LEN_FILENAME,FILENAME)
 c      open(unit=16,file='extern.plt')
 c      open(unit=17,file='extern.out')
 c      open(unit=18,file='louk.out')
-      write(18,1818)
- 1818 format(
-     >  1x,'                                        ',
-     >  1x,' ************ internal ***************',
-     >  1x,' +++++++ internal  + external ++++++++'/
-     >  1x,'   E        Ep      Th       s_born       s_rad',
-     >      '        s_elas       s_dis        s_rad',
-     >     '        s_elas       s_dis')
+c      write(18,1818)
+c 1818 format(
+c     >  1x,'                                        ',
+c     >  1x,' ************ internal ***************',
+c     >  1x,' +++++++ internal  + external ++++++++'/
+c     >  1x,'   E        Ep      Th       s_born       s_rad',
+c     >      '        s_elas       s_dis        s_rad',
+c     >     '        s_elas       s_dis')
 
-      write(6,'(1x,''got here'')')
+c      write(6,'(1x,''got here'')')
       CALL RADLENGTH(X0)                                                
                                                                         
 c read in params for d2model
@@ -134,11 +134,11 @@ C Unless specified, set default number of target segments for integrals:
 c                                                                        
       IF (NSEG.LE.0) NSEG = 4                                           
                                                                         
-      WRITE(10,'(                                                       
-     >''    E1    TH    Q2 COS_K         SMR     NUC  '',     
-     >''        INT-SMR'',/,                                               
-     >''    EP     X    W2 QE-PK  INELA  Q-ELA  ELAST'',     
-     >''   TOTAL  MODEL'',/)')                                              
+c      WRITE(10,'(                                                       
+c     >''    E1    TH    Q2 COS_K         SMR     NUC  '',     
+c     >''        INT-SMR'',/,                                               
+c     >''    EP     X    W2 QE-PK  INELA  Q-ELA  ELAST'',     
+c     >''   TOTAL  MODEL'',/)')                                              
 
 c check out pauli supp.
       do ii=1,5
@@ -223,7 +223,7 @@ c     >        E0SET,EPSET,TH,SIGMA_BORN,sigma_corr
 
          SIGMA_BORNPLSQE = SIGMA_BORN+SIGMA_CORR
 
-         dorad=.false.
+         dorad=.true.
          doext=.true.
           
          if(dorad) then 
@@ -346,27 +346,27 @@ c     dorad           SIGMA_BORNPLSQE = SIGMA_BORN+SIGMA_CORR
             VTRUN = VTSTOP-VTSTART                                       
             TTRUN = TTSTOP-TTSTART                                       
             
-            if(doeg1b) then
-               write(10,'(1x,2i4,3f7.3,2e12.4)') ipsv,ithsv,
-     >              e0set,epset,thset,SIGMA_BORNPLSQE,
-     >              sigma_INEL(2)+sigma_QELA(2)+sigma_ELPK(2)
-            else
-               WRITE(10,'(1X,2f7.3,f6.2,5F8.2,F7.3/
-     >              1x,2f7.3,F6.2,5f8.2,1PE10.3,/)')
-     >                E0SET, TH, Q2SET, DELTA_QE_PK_COS(1),  
-     >                DELTA_INEL(1),DELTA_QELA(1), DELTA_ELPK(1), 
-     >                TOTAL(1), RAT_SMR,EPSET, x, W2, 
-     >                DELTA_QE_PK_COS(2), DELTA_INEL(2),DELTA_QELA(2), 
-     >                DELTA_ELPK(2), TOTAL(2), SIGMA_BORNPLSQE  
-              endif
-              WRITE(*,'(1X,2f7.3,f6.2,6F8.2,F7.3/1x,2f7.3,F6.2,6f8.2,    
-     >             1PE10.3,/)') 
-     >             E0SET,TH,Q2SET,DELTA_QE_PK_COS(1),DELTA_QEPK(1),
-     >             DELTA_INEL(1),DELTA_QELA(1), DELTA_ELPK(1), TOTAL(1), 
-     >             RAT_SMR, EPSET,  x, W2,DELTA_QE_PK_COS(2),
-     >             DELTA_QEPK(2),DELTA_INEL(2),
-     >             DELTA_QELA(2), DELTA_ELPK(2), TOTAL(2), 
-     >             SIGMA_BORNPLSQE  
+c            if(doeg1b) then
+c               write(10,'(1x,2i4,3f7.3,2e12.4)') ipsv,ithsv,
+c     >              e0set,epset,thset,SIGMA_BORNPLSQE,
+c     >              sigma_INEL(2)+sigma_QELA(2)+sigma_ELPK(2)
+c            else
+c               WRITE(10,'(1X,2f7.3,f6.2,5F8.2,F7.3/
+c     >              1x,2f7.3,F6.2,5f8.2,1PE10.3,/)')
+c     >                E0SET, TH, Q2SET, DELTA_QE_PK_COS(1),  
+c     >                DELTA_INEL(1),DELTA_QELA(1), DELTA_ELPK(1), 
+c     >                TOTAL(1), RAT_SMR,EPSET, x, W2, 
+c     >                DELTA_QE_PK_COS(2), DELTA_INEL(2),DELTA_QELA(2), 
+c     >                DELTA_ELPK(2), TOTAL(2), SIGMA_BORNPLSQE  
+c              endif
+c              WRITE(*,'(1X,2f7.3,f6.2,6F8.2,F7.3/1x,2f7.3,F6.2,6f8.2,    
+c     >             1PE10.3,/)') 
+c     >             E0SET,TH,Q2SET,DELTA_QE_PK_COS(1),DELTA_QEPK(1),
+c     >             DELTA_INEL(1),DELTA_QELA(1), DELTA_ELPK(1), TOTAL(1), 
+c     >             RAT_SMR, EPSET,  x, W2,DELTA_QE_PK_COS(2),
+c     >             DELTA_QEPK(2),DELTA_INEL(2),
+c     >             DELTA_QELA(2), DELTA_ELPK(2), TOTAL(2), 
+c     >             SIGMA_BORNPLSQE  
            endif                !test on do rad
            sbsv(npts)= SIGMA_BORNPLSQE
            sbisv(npts) = SIGMA_BORN
@@ -427,9 +427,6 @@ c effect for this version
               write(6,*) 'Danger Will Robinson !!'
               write(6,*) 'Negative cross sections approaching!'
            endif
-
-
-        
             
            write(17,'(1x,5f9.4,9e13.5)') e0sv(npts),epsv(npts),
      >          thsv(npts),xsv(npts),q2set,sbsv(npts),sbisv(npts),
@@ -466,10 +463,10 @@ cdg      write(16,'(1x,''join dash'')')
 cdg      write(16,'(1x,f8.4,e12.4)') (w2sv(i),srinsv(i),i=1,npts)
 cdg      write(16,'(1x,''join dotdash'')')
 
-      WRITE(10,'(1X,2F6.3,F7.3,1X,F4.3,2F6.2,4F6.2,F6.3,/,25X,6F6.2,    
-     >           1PE10.3,/)') (ZERO(i),i=1,18)                          
+c      WRITE(10,'(1X,2F6.3,F7.3,1X,F4.3,2F6.2,4F6.2,F6.3,/,25X,6F6.2,    
+c     >           1PE10.3,/)') (ZERO(i),i=1,18)                          
 
-      CLOSE(10)
+c      CLOSE(10)
                                                                         
       END                                                               
                                                                         
@@ -3792,11 +3789,11 @@ c      OPEN(UNIT=20,FILE='extern.inp')
       WRITE(6,'(A)') EXTERNAL_OUT
       close(unit=20)
 
-      OPEN(UNIT=10,FILE=EXTERNAL_OUT)
+c      OPEN(UNIT=10,FILE=EXTERNAL_OUT)
       OPEN(UNIT=7,FILE=EXTERNAL_RUNPLAN)  
       OPEN(UNIT=5,FILE=EXTERNAL_TARGET)     
 
-      READ(7,'(A72,/,A72,/,A72,/,/,/)') (COMMENT(i),i=1,3)              
+c      READ(7,'(A72,/,A72,/,A72,/,/,/)') (COMMENT(i),i=1,3)              
       doeg1b=.false.
       if(comment(1)(1:4).eq.'EG1b') doeg1b=.true.
       READ(5,100) (COMMENT(i),i=4,6),                                   
@@ -3833,12 +3830,12 @@ c      OPEN(UNIT=20,FILE='extern.inp')
       avgN = avgA-iZ                                                    
       amuM = avgM/.931501                                               
       IF(INDEX(TARGET,'E143').GT.0)CALL RADLEN43_INIT(RAD_STRING)
-      WRITE(10,'(''EXTERNAL/TSAI:  VERSION OF 8/8/96''/
-     > /A72/4(A72/)/,A72/A72/)')   
-     +COMMENT(1),COMMENT(2),COMMENT(3),COMMENT(4),COMMENT(5),COMMENT(6),
-     > RAD_STRING
-      WRITE(10,200) iZ,iA,avgA,amuM,avgM,target,ttarg,twall,tbeam,tspec,
-     + Nseg,IG,IDUT,INEL_MODEL,PAULI_MODEL,NUC_METHOD,NUC_MODEL
+c      WRITE(10,'(''EXTERNAL/TSAI:  VERSION OF 8/8/96''/
+c     > /A72/4(A72/)/,A72/A72/)')   
+c     +COMMENT(1),COMMENT(2),COMMENT(3),COMMENT(4),COMMENT(5),COMMENT(6),
+c     > RAD_STRING
+c      WRITE(10,200) iZ,iA,avgA,amuM,avgM,target,ttarg,twall,tbeam,tspec,
+c     + Nseg,IG,IDUT,INEL_MODEL,PAULI_MODEL,NUC_METHOD,NUC_MODEL
 200   FORMAT('TARGET (iZ,iA) = (',I3,',',I3,');   avgA = ',F7.3,        
      +                 '; amuM=',F7.3,'; avgM=',F7.3,/                  
      +                 ' targ=',A7,'; ttarg(rl)=',F7.5,'; twall=',F7.5, 
@@ -4118,9 +4115,9 @@ C       Ask for deuteron form factor model (from Tjon), then read them
 C       in from files in DAT$D
 C ------------------------------------------------------------------------
 C
-           WRITE(10,
-     >      '('' Deut Elastic Model: ia,iamec,rsc,rscmec (1,2,3,4)='',
-     >       I3)')IMODEL
+c           WRITE(10,
+c     >      '('' Deut Elastic Model: ia,iamec,rsc,rscmec (1,2,3,4)='',
+c     >       I3)')IMODEL
            IF(IMODEL .EQ. 1)THEN
               FCFILE =  'iactjn'
               FQFILE =  'iaqtjn'
@@ -4141,8 +4138,8 @@ C
            C_FILE = FCFILE//'.tjon_input'
            Q_FILE = FQFILE//'.tjon_input'
            M_FILE = FMFILE//'.tjon_input'
-           WRITE(10,'('' TJON DEUT ELASTIC FILESS TO BE OPEN='',
-     >      10A,10A,10A)')    C_FILE,Q_FILE,M_FILE
+c           WRITE(10,'('' TJON DEUT ELASTIC FILESS TO BE OPEN='',
+c     >      10A,10A,10A)')    C_FILE,Q_FILE,M_FILE
            OPEN(UNIT=20,FILE=M_FILE,STATUS='OLD')
            OPEN(UNIT=21,FILE=C_FILE,STATUS='OLD')
            OPEN(UNIT=22,FILE=Q_FILE,STATUS='OLD')
@@ -4339,7 +4336,7 @@ C
          Y3 = LOG(Y(I3))
       ELSE
  
-         WRITE(10,'('' RiNTERPEXP:non-positive y-value; set to 0'')')
+c         WRITE(10,'('' RiNTERPEXP:non-positive y-value; set to 0'')')
          RINTERPEXP = 0.D0
          RETURN
       ENDIF

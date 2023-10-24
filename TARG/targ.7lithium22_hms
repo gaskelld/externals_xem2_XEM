@@ -10,7 +10,7 @@ avgM (GeV)
                                                                          
 target type          ordinary   : columns 21-27         
 thicknesses (rad. lengths):                                              
-   target          0.00317             
+   target          0.003036             
    walls           0.000001                                              
    pre-target      0.000001                 
    post-target     0.00747

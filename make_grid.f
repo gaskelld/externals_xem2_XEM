@@ -26,8 +26,9 @@ c      write(6,*) 'Theta step size'
 c      read(5,*) thetastep
 
       ebeam=10.551
-      pmin=1.15
-      pmax=7.20
+      pmin=1.10
+      pmax=4.15
+c      pmax=7.20
       pstep=0.01
 
       thetamin=15.0
@@ -42,7 +43,23 @@ c      read(5,*) thetastep
          k=100+i
          thtmp=thetamin+(i-1)*thetastep
          write(mychar,'(f4.1)') thtmp
-         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg.inp'
+         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg_part1.inp'
+         open(unit=10,file=xfile)
+         do j=1,np+1
+            ptmp=pmin + (j-1)*pstep
+            write(10,77) ebeam,ptmp,thtmp
+         enddo
+         close(10)
+      enddo
+
+c      pmin=1.10
+      pmin=4.16
+      pmax=7.20
+      do i=1,nth+1
+         k=100+i
+         thtmp=thetamin+(i-1)*thetastep
+         write(mychar,'(f4.1)') thtmp
+         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg_part2.inp'
          open(unit=10,file=xfile)
          do j=1,np+1
             ptmp=pmin + (j-1)*pstep

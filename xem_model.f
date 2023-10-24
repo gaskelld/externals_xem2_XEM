@@ -345,7 +345,13 @@ c-------------------------------------------------------------------------------
       integer a
       real*8 x, xtmp, frac
       real*8 emc, emc_corr
-      xtmp = x
+
+      if(x.lt.0.2) then
+         xtmp=0.2
+      else
+         xtmp = x
+      endif
+
       emc = emc_0 + emc_1*xtmp + emc_2*xtmp**2 +
      1     emc_3*xtmp**3 + emc_4*xtmp**4 + emc_5*xtmp**5
 c      write(6,*) emc

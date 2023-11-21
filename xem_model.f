@@ -13,7 +13,7 @@ CAM Main subroutine used in externals.
       REAL DUM1, DUM2, fact, avgM, SIGMApass
       real*8 sigma_send
       real*8 E0, EP, THETA, QSQ, NU, THR
-      real*8 Y, A, Z, X, N
+      real*8 Y, A, Z, X, N,m_tgt,cs,sn,tn,elastic_peak
       real*8 INNP, INNT
       real*8 sig_qe_new, sigdis_new
       real*8 YSCALE
@@ -26,9 +26,11 @@ CAM Main subroutine used in externals.
       THETA = real(THETAin,8)
       A = dble(iA)
       Z = dble(iZ)
+      m_tgt=dble(avgM)
 
       if(first) then
          first=.false.
+         write(6,*) 'calling load_parameters',A,Z
          call load_parameters(A, Z)
       endif
 
@@ -43,6 +45,17 @@ CAM Main subroutine used in externals.
 
       sig_qe_new = 0.0
       sigdis_new = 0.0
+
+      cs = cos(thr/2.)
+      sn = sin(thr/2.)
+      tn = tan(thr/2.)
+      elastic_peak = E0/(1.+2.*E0*sn**2/m_tgt)
+      if (EP.gt.elastic_peak) then
+         sigma_send=0.0
+         SIGMApass = real(sigma_send,4)
+         return
+      endif
+
 c      write(*,*) 'Y: ', Y
       IF(Y.lt.1.E19) then
          if((XFLAG.eq.1).or.(XFLAG.eq.2)) then
@@ -518,11 +531,11 @@ c     + dhx_cor_xalt, dhx_cor_alt_val
          elseif(a.gt.80.0) then
             write(6,*) 'Using Gold parameters with given A and Z...'
             first=.false.
-            call load_parameters(dble(79.),dble(197.))
+            call load_parameters(dble(197.),dble(79.))
             return              !Quit if couldn't find info.
          endif
       else if(.not.found.and. .not. first) then
-         write(6,*) 'Something is wrong with default load!'
+         write(6,*) 'Something is wrong with default load!',A
       endif
       
       return

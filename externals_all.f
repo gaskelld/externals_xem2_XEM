@@ -386,7 +386,7 @@ c           sfactsv(npts) = qefact
 c --- aji ----------------------------------------------
 c now do Coulomb correction
 
-           doccor=.false.
+           doccor=.true.
 c           doccor=.false.
            ccor=1.0
            if(doccor) then 
@@ -427,7 +427,16 @@ c effect for this version
               write(6,*) 'Danger Will Robinson !!'
               write(6,*) 'Negative cross sections approaching!'
            endif
-            
+
+c do quick check for xsec<0
+           if(sbsv(npts).lt.0.0) sbsv(npts)=0.0
+           if(sbisv(npts).lt.0.0) sbisv(npts)=0.0
+           if(sbqesv(npts).lt.0.0) sbqesv(npts)=0.0
+           if(srsv(npts).lt.0.0) srsv(npts)=0.0            
+           if(srelsv(npts).lt.0.0) srelsv(npts)=0.0            
+           if(srqesv(npts).lt.0.0) srqesv(npts)=0.0            
+           if(srinsv(npts).lt.0.0) srinsv(npts)=0.0            
+
            write(17,'(1x,5f9.4,9e13.5)') e0sv(npts),epsv(npts),
      >          thsv(npts),xsv(npts),q2set,sbsv(npts),sbisv(npts),
      >          sbqesv(npts),srsv(npts),

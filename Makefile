@@ -5,10 +5,10 @@ FFLAGS    = -C -g -w -fno-automatic -fbounds-check -ffixed-line-length-132
 F77       :=gfortran
 ########################################
 
-externals_all_objs = externals_all.o xem_model.o f1f221.o\
+externals_all_objs = externals_all.o xem_model.o F1F2IN21_v1.0.o\
 	             sig_bar_df.o nform.o smear4all.o\
                      get_cc_info.o
-externals_all_srcs = externals_all.f xem_model.f f1f221.f\
+externals_all_srcs = externals_all.f xem_model.f F1F2IN21_v1.0.f\
 	             sig_bar_df.f nform.f smear4all.f\
                      get_cc_info.f
 
@@ -30,6 +30,9 @@ smear4all.o: smear4all.f
 	$(F77) $(FFLAGS) -c $< -o $@
 
 f1f221.o: f1f221.f
+	$(F77) $(FFLAGS) -c $< -o $@
+
+F1F2IN21_v1.0.o: F1F2IN21_v1.0.f
 	$(F77) $(FFLAGS) -c $< -o $@
 
 sig_bar_df.o: sig_bar_df.f

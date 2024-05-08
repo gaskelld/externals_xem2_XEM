@@ -1289,6 +1289,35 @@ c       actual density and material of target
  124    format(1x,'CRYO17 rad len=',5f10.5)
       ENDIF
 
+      IF(INDEX(TARGET,'CRYO22').GT.0) THEN     ! target geometry for
+                                               ! 10 cm LH2 and LD2
+        ECIR=1.0-0.02106                       ! endcap inner radius (cm
+        ECOR=1.0                               ! endcap outer radius (cm
+        TARGLEN=10.0                           ! target length (cm
+        ENTEC=TARGLEN-ECIR                     ! entrance to end cap (cm
+        TBAL=TBEAM                             ! material bf the target
+        TBEFOR=T                               ! distance traveled bf
+                                               ! vertex
+        tcm=t*targlen/ttarg                    ! t in cm
+        
+        if((tcm+ECIR/tan(thr)).lt.ENTEC) then  ! e goes through sidewall
+          TAFTER=ECIR*ttarg/sin(thr)/targlen   ! liquid target
+          TAAL=TSPEC+TWALL/sin(thr)            ! material af the target 
+                                               ! & side wall
+        else
+          TAFTER=                              ! e goes throught end cap
+     >     (sqrt(ECIR**2-((targlen-ECIR-tcm)*sin(thr))**2)
+     >    +(targlen-ECIR-tcm)*cos(thr))*ttarg/targlen ! liquid target
+          TAAL=TSPEC                           ! material af the target
+     >    +(sqrt(ECOR**2-((targlen-ECIR-tcm)*sin(thr))**2)
+     >    -sqrt(ECIR**2-((targlen-ECIR-tcm)*sin(thr))**2))
+     >    *0.0023064/(ECOR-ECIR)               ! & end cap. Note: hardwired encap RL
+        endif
+        nprnt= nprnt+1
+        if(nprnt.le.6) write(*,125) tcm,tbal,tbefor,tafter,taal
+ 125    format(1x,'CRYO22 rad len=',5f10.5)
+      ENDIF
+
       IF(INDEX(TARGET,'10OLD17').GT.0) THEN    ! target geometry for
                                                ! old 10 cm LH2 and LD2
         ECIR=0.795*2.54                        ! endcap inner radius (cm
@@ -1394,10 +1423,12 @@ c        TAAL = 0.00495 * cryo_cm / cell_diam +wall_cm/8.9 + TSPEC
       IF(INDEX(TARGET,'DUMMYDN').GT.0) THEN ! DOWNSTREAM DUMMMY SLAB
          TBEFOR = t
          TAFTER=(ttarg-t)/cos(thr)       ! target/cos(th)
-         TBAL = ttarg +TBEAM   ! always goes through upstream slab, here I assume
+         TBAL = TBEAM   ! make sure upstream slab is included in input file
                         ! both slabs are the same thickness
          TAAL = TSPEC
 c         write(6,*) 'cheesy poofs ',TARGET,TBAL,TAAL,TBEFOR,TAFTER
+         if(nprnt.le.6) write(*,126) ttarg,tbal,tbefor,tafter,taal
+ 126     format(1x,'DUMMY DN rad len=',5f10.5)
       endif
 
 ! Now do the upstream slab of the dummy. This is trickier
@@ -1416,6 +1447,9 @@ C 12 GeV
          else
             TAAL = TSPEC
          endif
+         nprnt= nprnt+1
+         if(nprnt.le.6) write(*,127) ttarg,tbal,tbefor,tafter,taal
+ 127     format(1x,'DUMMY UP rad len=',5f10.5)
 c         write(6,*) 'cheesy poofs ',TARGET,TBAL,TAAL,TBEFOR,TAFTER
       endif
 

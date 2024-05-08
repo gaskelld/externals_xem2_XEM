@@ -141,6 +141,7 @@ CAM Calculate DIS using donal's smearing routine.
       real*8 ag, bg, bigB, f0, alpha1, pfermi, eps
       COMMON /CORRECTIONS/ johns_fac, fact, corfact, dhxcorfac, emc_corr
       real*8 johns_fac, fact, corfact, dhxcorfac, emc_corr
+      real*8 inelastic_it
 
       include 'constants_dble.inc'
       integer a, z, n, innp, innt
@@ -192,6 +193,10 @@ CAM    Mott cross section
        sig_mott = 0.3893857*(alpha*cos(thr/2))**2/(2*e*sin(thr/2)**2)**2
        sigdis =  sig_mott*(W2+2.0*W1*tan_2)*1.e-2*1.e9/10.0
       endif
+
+cDJG   Apply iteration correction      
+      sigdis=sigdis*inelastic_it(x,A,Z)
+
       end
 
 !-----------------------------------------------------------------------------
@@ -554,3 +559,124 @@ c         write(6,*) "johns_fac fact*1000. corfact dhxcorfac emc_corr"
 c      write(6,*) johns_fac, fact*1000., corfact, dhxcorfac, emc_corr
       return
       end
+****************************************************************************
+	real*8 function inelastic_it(x,A,Z)
+C DJG: Correction to inelastic cross section
+C DJG: Just a simple one-pass iteration.
+        integer A,Z
+	real*8 x
+	real*8 p(7)
+	real*8 x1,x2,xit
+        integer i
+
+
+	inelastic_it = 1.0 ! set to 1 by default
+
+        x1=0.1823
+        x2=1.2054
+        if(A.eq.12) x2=1.1733
+        if(A.eq.27) x2=1.3842
+        if(A.eq.48 .and.Z.eq.22) x2=1.2386
+        if(A.eq.48.and.Z.eq.20)x2=1.1733
+        if(A.eq.54) x2=1.0041
+        if(A.eq.58) x2=1.1733
+        if(x.lt.x1) then
+           xit=x1
+        elseif(x.gt.x2) then
+           xit=x2
+        elseif(x.ge.x1 .and. x.le.x2) then
+           xit=x
+        endif
+c initialize p(i)
+        p(1)=1.0
+        do i=2,7
+           p(i)=0.0
+        enddo
+
+	if(A.eq.2) then !deuterium
+           p(1)=1.3642
+           p(2)=-4.9219
+           p(3)=23.565
+           p(4)=-56.308
+           p(5)=71.713
+           p(6)=-46.596
+           p(7)=12.009
+	elseif(A.eq.12) then !Carbon
+           p(1)=0.89389
+           p(2)=0.97994
+           p(3)=-2.8513
+           p(4)=0.70773E-01
+           p(5)=11.411
+           p(6)=-16.182
+           p(7)=6.5635 
+	elseif(A.eq.27) then !Aluminum
+           p(1)=0.28248
+           p(2)=9.4865
+           p(3)=-46.493
+           p(4)=107.69
+           p(5)=-124.53
+           p(6)=68.740
+           p(7)=-14.438
+	elseif(A.eq.40) then !Calcium-40
+           p(1)=0.48647 
+           p(2)=6.6723
+           p(3)=-31.946
+           p(4)=73.148
+           p(5)=-82.302
+           p(6)=42.400
+           p(7)=-7.5282
+	elseif(A.eq.40 .and. Z.eq.20) then !Calcium-48
+           p(1)=0.63399 
+           p(2)=5.4103
+           p(3)=-26.105
+           p(4)=58.225
+           p(5)=-59.745
+           p(6)=24.372
+           p(7)=-1.7432
+	elseif(A.eq.48 .and. Z.eq.22) then !Titanium
+           p(1)=0.28911
+           p(2)=9.4768
+           p(3)=-45.967
+           p(4)=107.29
+           p(5)=-125.41
+           p(6)=69.603
+           p(7)=-14.297
+	elseif(A.eq.54) then !Iron-54
+           p(1)=0.66863
+           p(2)=4.0487
+           p(3)=-17.000
+           p(4)=29.667
+           p(5)=-15.259
+           p(6)=-9.5236
+           p(7)=8.3731
+	elseif(A.eq.58) then !Nickel-58
+           p(1)=0.53500
+           p(2)=6.0207
+           p(3)=-28.338
+           p(4)=61.776
+           p(5)=-63.099
+           p(6)=26.358
+           p(7)=-2.3173
+	elseif(Z.eq.29) then !Copper
+           p(1)=0.66104
+           p(2)=4.6071
+           p(3)=-23.089
+           p(4)=52.728
+           p(5)=-56.654
+           p(6)=26.011
+           p(7)=-3.3542
+	elseif(A.eq.64 .and. Z.eq.28) then !Nickel-64
+           p(1)=0.89260
+           p(2)=1.4684
+           p(3)=-6.0135
+           p(4)=8.0456
+           p(5)=4.7538
+           p(6)=-16.484
+           p(7)=8.2957
+        endif
+
+        inelastic_it=p(1)+p(2)*xit+p(3)*xit**2+p(4)*xit**3
+     >        +p(5)*xit**4+p(6)*xit**5+p(7)*xit**6
+
+	return
+	end

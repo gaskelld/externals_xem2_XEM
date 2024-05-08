@@ -2,15 +2,15 @@ Carbon 1.6%
 from ent.m2 using 0.452 g/cm2- revised 2/20/01, and Dunne 8/01
 ----*----1----*----2----*----3----*----4----*----5----*----6----*----7---
                                                                          
-iZ    (#)         20                                                     
-iA    (#)         40                                                     
+iZ    (#)         22                                                     
+iA    (#)         48                                                     
                                                                          
 avgA  (#)                                                                
 avgM (GeV)                                                               
                                                                          
 target type          ordinary   : columns 21-27         
 thicknesses (rad. lengths):                                              
-   target          0.04864             
+   target          0.01819             
    walls           0.000001                                              
    pre-target      0.000001                 
    post-target     0.00747

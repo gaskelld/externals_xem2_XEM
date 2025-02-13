@@ -1,0 +1,65 @@
+{
+  "jobs": [
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p0_d2cryo22_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_d2cryo22_hms_test_job0",
+      "partition": "production",
+      "ram_bytes": 150000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job0.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job0.out",
+      "time_secs": 86400
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p0_d2cryo22_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_d2cryo22_hms_test_job1",
+      "partition": "production",
+      "ram_bytes": 150000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job1.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job1.out",
+      "time_secs": 86400
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p2_d2cryo22_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_d2cryo22_hms_test_job2",
+      "partition": "production",
+      "ram_bytes": 150000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job2.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job2.out",
+      "time_secs": 86400
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p2_d2cryo22_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_d2cryo22_hms_test_job3",
+      "partition": "production",
+      "ram_bytes": 150000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job3.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_d2cryo22_hms_test_job3.out",
+      "time_secs": 86400
+    }
+  ],
+  "name": "externals_d2cryo22_hms_test"
+}

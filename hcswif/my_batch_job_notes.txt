@@ -1,0 +1,24 @@
+This submits a bunch of jobs for a single target (i.e., beryllium22_hms)
+
+1. Create the input files for each angle: (go to the SCRIPTS directory)
+make_xem2_input_files.sh <target>
+
+2. Create the scripts for each angle/target:
+make_xem2_scripts.sh <target>
+
+Make sure to "chmod a+x" the scripts or the jobs will fail!
+
+3. Make the list of scripts (go to hcswif/FARM_SCRIPTS)
+readlink -f *_<target>*.sh >! <target>_list.txt
+
+4. Create json file:
+hcswif.py --mode command --command file /u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/<target>_list.txt --name externals_<target> --account hallc --time 172800 --ram 50000000
+
+5. Now do the swif stuff
+swif2 import -file json/externals_<target>.json 
+swif2 run externals_<target>
+
+
+6. When all the jobs are complete - you have to combine all the output files. Go back to the SCRIPTS directory
+combine_output <target>
+

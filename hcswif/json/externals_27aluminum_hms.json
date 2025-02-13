@@ -1,0 +1,3935 @@
+{
+  "jobs": [
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job0",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job0.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job0.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job1",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job1.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job1.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job2",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job2.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job2.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job3",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job3.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job3.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job4",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job4.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job4.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job5",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job5.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job5.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job6",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job6.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job6.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job7",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job7.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job7.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job8",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job8.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job8.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/15p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job9",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job9.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job9.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job10",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job10.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job10.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job11",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job11.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job11.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job12",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job12.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job12.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job13",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job13.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job13.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job14",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job14.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job14.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job15",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job15.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job15.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job16",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job16.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job16.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job17",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job17.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job17.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job18",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job18.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job18.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/16p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job19",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job19.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job19.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job20",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job20.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job20.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job21",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job21.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job21.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job22",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job22.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job22.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job23",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job23.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job23.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job24",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job24.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job24.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job25",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job25.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job25.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job26",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job26.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job26.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job27",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job27.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job27.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job28",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job28.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job28.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/17p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job29",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job29.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job29.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job30",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job30.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job30.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job31",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job31.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job31.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job32",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job32.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job32.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job33",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job33.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job33.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job34",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job34.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job34.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job35",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job35.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job35.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job36",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job36.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job36.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job37",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job37.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job37.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job38",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job38.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job38.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/18p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job39",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job39.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job39.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job40",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job40.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job40.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job41",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job41.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job41.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job42",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job42.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job42.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job43",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job43.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job43.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job44",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job44.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job44.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job45",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job45.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job45.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job46",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job46.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job46.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job47",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job47.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job47.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job48",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job48.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job48.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/19p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job49",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job49.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job49.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job50",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job50.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job50.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job51",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job51.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job51.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job52",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job52.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job52.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job53",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job53.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job53.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job54",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job54.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job54.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job55",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job55.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job55.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job56",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job56.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job56.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job57",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job57.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job57.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job58",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job58.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job58.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/20p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job59",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job59.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job59.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job60",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job60.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job60.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job61",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job61.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job61.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job62",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job62.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job62.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job63",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job63.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job63.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job64",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job64.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job64.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job65",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job65.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job65.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job66",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job66.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job66.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job67",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job67.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job67.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job68",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job68.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job68.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/21p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job69",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job69.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job69.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job70",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job70.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job70.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job71",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job71.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job71.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job72",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job72.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job72.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job73",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job73.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job73.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job74",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job74.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job74.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job75",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job75.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job75.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job76",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job76.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job76.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job77",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job77.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job77.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job78",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job78.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job78.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/22p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job79",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job79.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job79.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job80",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job80.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job80.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job81",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job81.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job81.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job82",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job82.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job82.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job83",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job83.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job83.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job84",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job84.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job84.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job85",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job85.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job85.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job86",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job86.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job86.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job87",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job87.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job87.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job88",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job88.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job88.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/23p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job89",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job89.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job89.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job90",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job90.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job90.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job91",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job91.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job91.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job92",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job92.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job92.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job93",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job93.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job93.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job94",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job94.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job94.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job95",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job95.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job95.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job96",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job96.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job96.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job97",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job97.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job97.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job98",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job98.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job98.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/24p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job99",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job99.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job99.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job100",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job100.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job100.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job101",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job101.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job101.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job102",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job102.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job102.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job103",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job103.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job103.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job104",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job104.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job104.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job105",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job105.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job105.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job106",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job106.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job106.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job107",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job107.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job107.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job108",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job108.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job108.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/25p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job109",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job109.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job109.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job110",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job110.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job110.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job111",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job111.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job111.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job112",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job112.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job112.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job113",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job113.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job113.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job114",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job114.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job114.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job115",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job115.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job115.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job116",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job116.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job116.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job117",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job117.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job117.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job118",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job118.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job118.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/26p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job119",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job119.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job119.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job120",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job120.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job120.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job121",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job121.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job121.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job122",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job122.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job122.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job123",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job123.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job123.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job124",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job124.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job124.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job125",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job125.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job125.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job126",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job126.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job126.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job127",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job127.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job127.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job128",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job128.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job128.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/27p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job129",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job129.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job129.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job130",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job130.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job130.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job131",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job131.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job131.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job132",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job132.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job132.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job133",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job133.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job133.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job134",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job134.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job134.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job135",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job135.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job135.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job136",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job136.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job136.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job137",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job137.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job137.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job138",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job138.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job138.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/28p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job139",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job139.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job139.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job140",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job140.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job140.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job141",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job141.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job141.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job142",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job142.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job142.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job143",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job143.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job143.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job144",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job144.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job144.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job145",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job145.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job145.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job146",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job146.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job146.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job147",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job147.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job147.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job148",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job148.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job148.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/29p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job149",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job149.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job149.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job150",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job150.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job150.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job151",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job151.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job151.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job152",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job152.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job152.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job153",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job153.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job153.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job154",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job154.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job154.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job155",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job155.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job155.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job156",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job156.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job156.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job157",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job157.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job157.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job158",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job158.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job158.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/30p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job159",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job159.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job159.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job160",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job160.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job160.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job161",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job161.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job161.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job162",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job162.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job162.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job163",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job163.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job163.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job164",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job164.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job164.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job165",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job165.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job165.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job166",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job166.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job166.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job167",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job167.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job167.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job168",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job168.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job168.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/31p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job169",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job169.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job169.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job170",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job170.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job170.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job171",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job171.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job171.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job172",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job172.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job172.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job173",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job173.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job173.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job174",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job174.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job174.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job175",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job175.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job175.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job176",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job176.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job176.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job177",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job177.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job177.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job178",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job178.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job178.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/32p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job179",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job179.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job179.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job180",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job180.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job180.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job181",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job181.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job181.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job182",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job182.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job182.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job183",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job183.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job183.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job184",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job184.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job184.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job185",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job185.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job185.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job186",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job186.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job186.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job187",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job187.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job187.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job188",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job188.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job188.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/33p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job189",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job189.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job189.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job190",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job190.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job190.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job191",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job191.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job191.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job192",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job192.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job192.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job193",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job193.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job193.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job194",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job194.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job194.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job195",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job195.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job195.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job196",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job196.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job196.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job197",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job197.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job197.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job198",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job198.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job198.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/34p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job199",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job199.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job199.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job200",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job200.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job200.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job201",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job201.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job201.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job202",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job202.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job202.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job203",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job203.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job203.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job204",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job204.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job204.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job205",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job205.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job205.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job206",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job206.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job206.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job207",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job207.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job207.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job208",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job208.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job208.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/35p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job209",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job209.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job209.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job210",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job210.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job210.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job211",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job211.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job211.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job212",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job212.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job212.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job213",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job213.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job213.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job214",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job214.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job214.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job215",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job215.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job215.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job216",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job216.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job216.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job217",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job217.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job217.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job218",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job218.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job218.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/36p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job219",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job219.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job219.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job220",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job220.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job220.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job221",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job221.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job221.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job222",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job222.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job222.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job223",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job223.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job223.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job224",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job224.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job224.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job225",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job225.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job225.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job226",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job226.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job226.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job227",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job227.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job227.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job228",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job228.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job228.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/37p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job229",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job229.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job229.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job230",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job230.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job230.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job231",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job231.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job231.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job232",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job232.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job232.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job233",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job233.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job233.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job234",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job234.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job234.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job235",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job235.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job235.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job236",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job236.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job236.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job237",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job237.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job237.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job238",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job238.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job238.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/38p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job239",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job239.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job239.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job240",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job240.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job240.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job241",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job241.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job241.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job242",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job242.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job242.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job243",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job243.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job243.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job244",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job244.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job244.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job245",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job245.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job245.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job246",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job246.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job246.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job247",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job247.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job247.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job248",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job248.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job248.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/39p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job249",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job249.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job249.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job250",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job250.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job250.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job251",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job251.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job251.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p2_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job252",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job252.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job252.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p2_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job253",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job253.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job253.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p4_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job254",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job254.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job254.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p4_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job255",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job255.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job255.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p6_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job256",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job256.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job256.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p6_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job257",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job257.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job257.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p8_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job258",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job258.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job258.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/40p8_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job259",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job259.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job259.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/41p0_27aluminum_hms_part1.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job260",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job260.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job260.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/41p0_27aluminum_hms_part2.sh"
+      ],
+      "constraint": "centos79",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_27aluminum_hms_job261",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job261.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_27aluminum_hms_job261.out",
+      "time_secs": 172800
+    }
+  ],
+  "name": "externals_27aluminum_hms"
+}

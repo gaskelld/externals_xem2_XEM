@@ -1,0 +1,1535 @@
+{
+  "jobs": [
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job0",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job0.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job0.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job1",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job1.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job1.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job2",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job2.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job2.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job3",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job3.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job3.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job4",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job4.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job4.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job5",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job5.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job5.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job6",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job6.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job6.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job7",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job7.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job7.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job8",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job8.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job8.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/10p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job9",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job9.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job9.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job10",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job10.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job10.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job11",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job11.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job11.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job12",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job12.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job12.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job13",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job13.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job13.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job14",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job14.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job14.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job15",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job15.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job15.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job16",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job16.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job16.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job17",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job17.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job17.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job18",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job18.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job18.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/11p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job19",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job19.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job19.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job20",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job20.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job20.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job21",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job21.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job21.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job22",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job22.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job22.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job23",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job23.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job23.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job24",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job24.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job24.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job25",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job25.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job25.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job26",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job26.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job26.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job27",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job27.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job27.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job28",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job28.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job28.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/12p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job29",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job29.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job29.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/13p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job30",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job30.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job30.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/13p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job31",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job31.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job31.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job32",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job32.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job32.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job33",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job33.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job33.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job34",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job34.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job34.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job35",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job35.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job35.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job36",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job36.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job36.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job37",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job37.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job37.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job38",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job38.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job38.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job39",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job39.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job39.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job40",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job40.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job40.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/3p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job41",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job41.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job41.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job42",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job42.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job42.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job43",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job43.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job43.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job44",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job44.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job44.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job45",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job45.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job45.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job46",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job46.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job46.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job47",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job47.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job47.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job48",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job48.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job48.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job49",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job49.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job49.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job50",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job50.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job50.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/4p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job51",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job51.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job51.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job52",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job52.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job52.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job53",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job53.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job53.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job54",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job54.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job54.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job55",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job55.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job55.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job56",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job56.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job56.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job57",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job57.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job57.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job58",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job58.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job58.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job59",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job59.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job59.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job60",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job60.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job60.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/5p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job61",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job61.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job61.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job62",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job62.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job62.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job63",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job63.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job63.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job64",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job64.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job64.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job65",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job65.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job65.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job66",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job66.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job66.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job67",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job67.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job67.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job68",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job68.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job68.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job69",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job69.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job69.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job70",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job70.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job70.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/6p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job71",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job71.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job71.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job72",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job72.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job72.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job73",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job73.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job73.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job74",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job74.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job74.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job75",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job75.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job75.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job76",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job76.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job76.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job77",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job77.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job77.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job78",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job78.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job78.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job79",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job79.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job79.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job80",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job80.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job80.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/7p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job81",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job81.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job81.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job82",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job82.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job82.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job83",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job83.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job83.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job84",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job84.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job84.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job85",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job85.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job85.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job86",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job86.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job86.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job87",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job87.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job87.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job88",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job88.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job88.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job89",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job89.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job89.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job90",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job90.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job90.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/8p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job91",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job91.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job91.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p0_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job92",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job92.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job92.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p0_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job93",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job93.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job93.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p2_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job94",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job94.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job94.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p2_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job95",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job95.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job95.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p4_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job96",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job96.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job96.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p4_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job97",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job97.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job97.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p6_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job98",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job98.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job98.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p6_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job99",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job99.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job99.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p8_48calcium22_shms_src_part1.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job100",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job100.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job100.out",
+      "time_secs": 172800
+    },
+    {
+      "account": "hallc",
+      "command": [
+        "/u/group/c-xem2/gaskelld/GIT/externals_xem2_XEM/hcswif/FARM_SCRIPTS/9p8_48calcium22_shms_src_part2.sh"
+      ],
+      "constraint": "el9",
+      "cpu_cores": 1,
+      "disk_bytes": 10000000000,
+      "name": "externals_48calcium22_shms_src_job101",
+      "partition": "production",
+      "ram_bytes": 50000000,
+      "stderr": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job101.err",
+      "stdout": "/farm_out/gaskelld/externals_xem2_XEM_OUT/externals_48calcium22_shms_src_job101.out",
+      "time_secs": 172800
+    }
+  ],
+  "name": "externals_48calcium22_shms_src"
+}

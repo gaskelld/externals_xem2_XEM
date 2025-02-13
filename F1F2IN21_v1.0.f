@@ -47,6 +47,7 @@ c Outputs: F1, F2 (real*8) are structure functions per nucleus
       integer IA,IZ,wfn,opt
       logical off,doqe/.false./
 
+
       off = .true.
       IA = int(A)
       IZ = int(Z)

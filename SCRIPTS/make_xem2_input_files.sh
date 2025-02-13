@@ -17,8 +17,14 @@ while ($i <= 131)
     set infile = "${angle_name}_${targ}_part2.inp"
     echo $infile
     sed -e "s/<angle>/$angle/;s/<targ>/$targ/" < xem2_inp_part2.template >! $infile
-#    cd ..
-#    nice +10 ./run_extern $infile
-#    cd INP
+    set infile = "${angle_name}_${targ}_part3.inp"
+    echo $infile
+    sed -e "s/<angle>/$angle/;s/<targ>/$targ/" < xem2_inp_part3.template >! $infile
+    set infile = "${angle_name}_${targ}_part4.inp"
+    echo $infile
+    sed -e "s/<angle>/$angle/;s/<targ>/$targ/" < xem2_inp_part4.template >! $infile
+    set infile = "${angle_name}_${targ}_part5.inp"
+    echo $infile
+    sed -e "s/<angle>/$angle/;s/<targ>/$targ/" < xem2_inp_part5.template >! $infile
     @ i++
 end

@@ -1,4 +1,4 @@
 cd /group/c-xem2/gaskelld/GIT/externals_xem2_XEM
-externals_all << endofinput > runout/$1.out
+./externals_all << endofinput > runout/$1.out
 $1
 endofinput

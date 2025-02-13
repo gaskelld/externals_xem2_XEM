@@ -46,35 +46,34 @@ c      thetamax=24.4
 c      thetastep=0.2
 c 
 c x36_4
-      ebeam=8.454
-      pmin=2.30
-      pmax=2.82
-      pstep=0.01
-
-      thetamin=19.8
-      thetamax=29.8
-      thetastep=0.2
-
-c 3N SRCstuff
-c      ebeam=10.60
-c      pmin=7.0
-c      pmax=10.4
-c      pmax=7.20
+c      ebeam=8.454
+c      pmin=2.30
+c      pmax=2.82
 c      pstep=0.01
 
-c      thetamin=10.0
-c      thetamax=10.0
+c      thetamin=19.8
+c      thetamax=29.8
 c      thetastep=0.2
+
+c 3N SRCstuff
+      ebeam=10.551
+      pmin=7.0
+      pmax=8.79
+      pstep=0.01
+
+      thetamin=10.0
+      thetamax=13.0
+      thetastep=0.2
 
       np=int((pmax-pmin)/pstep)
 
       nth=int( (thetamax-thetamin)/thetastep)
 
-      do i=1,nth+2
+      do i=1,nth+1
          k=100+i
          thtmp=thetamin+(i-1)*thetastep
          write(mychar,'(f4.1)') thtmp
-         xfile='RUNPLAN/8.45gev_th_'//mychar//'deg.inp'
+         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg_src_part1.inp'
          open(unit=10,file=xfile)
          do j=1,np+2
             ptmp=pmin + (j-1)*pstep
@@ -83,15 +82,15 @@ c      thetastep=0.2
          close(10)
       enddo
 
-      goto 99
 c      pmin=1.10
-      pmin=4.16
-      pmax=7.20
+      pmin=8.81
+      pmax=10.51
+      np=int((pmax-pmin)/pstep)
       do i=1,nth+1
          k=100+i
          thtmp=thetamin+(i-1)*thetastep
          write(mychar,'(f4.1)') thtmp
-         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg_part2.inp'
+         xfile='RUNPLAN/10.55gev_th_'//mychar//'deg_src_part2.inp'
          open(unit=10,file=xfile)
          do j=1,np+1
             ptmp=pmin + (j-1)*pstep

@@ -1,0 +1,6 @@
+input files for EXTERNAL: runplan/target/output
+RUNPLAN/10.55gev_th_<angle>deg_src.inp
+TARG/targ.<targ>
+OUT/10p55gev_<angle>_<targ>_src_details.out
+
+

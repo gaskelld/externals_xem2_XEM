@@ -175,7 +175,7 @@ c needed by f1f2in21
 
       PMAX=1.0
 
-      if(a.gt.2) then
+      if(a.ge.2) then
          if(WSQ.lt.2.25) then
             innt=30
             innp=30
@@ -200,7 +200,7 @@ CAM Make a correction to the high_x tail.
             sigdis = sigdis*dhxcorfac
          endif
          
-      else if(A.eq.1 .or. A.eq.2) then
+      else if(A.eq.1) then
        call F1F2IN21(dble(Z),dble(A), QSQ, WSQ, F1, F2)
        W1 = F1/.93827231D0
        W2 = F2/nu
@@ -211,7 +211,7 @@ CAM    Mott cross section
       endif
 
 cDJG   Apply iteration correction      
-      sigdis=sigdis*inelastic_it(x,A,Z)
+cDJG      sigdis=sigdis*inelastic_it(x,A,Z) ! skip this for SRC
 
       end
 

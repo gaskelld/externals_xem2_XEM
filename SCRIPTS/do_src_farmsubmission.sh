@@ -2,6 +2,8 @@
 set targ=$1
 set targ = {$1}
 
+swif2 cancel externals_${targ}_src -delete
+
 ./make_src_input_files.sh $targ
 ./make_src_scripts.sh $targ
 

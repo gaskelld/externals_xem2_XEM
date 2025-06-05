@@ -11,7 +11,8 @@ c for in extern.inp pb
 C=======================================================================
       IMPLICIT NONE
       COMMON /SET/   E0SET,EPSET,THSET      
-      REAL  E0SET,EPSET,THSET   
+      REAL  E0SET,EPSET,THSET
+      REAL  XSET !not needed in common block
       COMMON /KIN/   E0,EP,TH,THR,X,Q2,EPS,W2,Y,ANU,SIN2
       REAL   E0,EP,TH,THR,X,Q2,EPS,W2,Y,ANU,SIN2
       COMMON /CON/   PI,PM,PP,EM,AL
@@ -164,7 +165,8 @@ c           CALL TIME(VTSTART,TTSTART)
      >           E0SET,EPSET,THSET
             if(ipsv.eq.0) goto 100
          else
-           READ(7,'(F6.3,1x,F6.4,1x,F7.4)',END=100) E0SET,EPSET,THSET
+c            READ(7,'(F6.3,1x,F6.4,1x,F7.4)',END=100) E0SET,EPSET,THSET
+            READ(7,'(F6.3,1x,F6.4,1x,F7.4)',END=100) E0SET,XSET,THSET
 c temp test
 c           e0set=e0set*1.001
 c temp test
@@ -175,7 +177,9 @@ C          CALL INTERPOL(E0SET,EPSET,THSET)
                                                                         
          TH    = THSET                                                
          THR   = TH*PI/180.                                           
-         SIN2  = SIN(THR/2.)**2                                       
+         SIN2  = SIN(THR/2.)**2
+         EPSET = XSET*PM*E0SET/(XSET*PM+2.0*E0SET*SIN2)
+         
          Q2SET = 4.*E0SET*EPSET*SIN2                                  
          ANU   = E0SET-EPSET
          X     = Q2SET/2./PM/ANU                                      
